@@ -2,6 +2,7 @@ package my.project.microservices.dataaccess.model;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import my.project.microservices.validator.TransactionCheck;
 
 @TransactionCheck
 public class FinancialTransactionDto {

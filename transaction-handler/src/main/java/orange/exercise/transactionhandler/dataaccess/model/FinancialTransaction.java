@@ -1,4 +1,4 @@
-package orange.exercise.transactionhandler;
+package orange.exercise.transactionhandler.dataaccess.model;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

@@ -1,4 +1,4 @@
-package my.project.microservices.dataaccess.model;
+package my.project.microservices.validator;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

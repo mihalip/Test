@@ -1,8 +1,12 @@
-package orange.exercise.transactionhandler;
+package orange.exercise.transactionhandler.service;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import orange.exercise.transactionhandler.dataaccess.model.FinancialTransaction;
+import orange.exercise.transactionhandler.dataaccess.model.FinancialTransactionDto;
+import orange.exercise.transactionhandler.dataaccess.model.TransactionMapper;
+import orange.exercise.transactionhandler.dataaccess.model.TransactionType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

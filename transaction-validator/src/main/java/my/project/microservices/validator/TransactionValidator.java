@@ -1,9 +1,10 @@
-package my.project.microservices.dataaccess.model;
+package my.project.microservices.validator;
 
 import java.util.logging.Logger;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import javax.validation.ValidationException;
+import my.project.microservices.dataaccess.model.FinancialTransactionDto;
 import org.apache.commons.lang3.StringUtils;
 
 public class TransactionValidator implements ConstraintValidator<TransactionCheck, FinancialTransactionDto> {

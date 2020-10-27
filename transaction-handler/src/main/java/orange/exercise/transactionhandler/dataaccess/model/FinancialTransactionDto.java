@@ -1,4 +1,4 @@
-package orange.exercise.transactionhandler;
+package orange.exercise.transactionhandler.dataaccess.model;
 
 import io.swagger.annotations.ApiModel;
 import javax.validation.constraints.NotBlank;

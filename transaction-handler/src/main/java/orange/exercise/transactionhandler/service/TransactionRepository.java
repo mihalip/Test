@@ -1,6 +1,7 @@
-package orange.exercise.transactionhandler;
+package orange.exercise.transactionhandler.service;
 
 import java.util.List;
+import orange.exercise.transactionhandler.dataaccess.model.FinancialTransaction;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

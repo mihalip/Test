@@ -1,7 +1,8 @@
-package my.project.microservices.dataaccess.model;
+package my.project.microservices;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import my.project.microservices.dataaccess.model.FinancialTransactionDto;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
