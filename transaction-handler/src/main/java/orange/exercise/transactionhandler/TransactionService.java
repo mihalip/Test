@@ -61,7 +61,7 @@ public class TransactionService {
                                                          .reduce(0L, Long::sum);
                 totalValue = totalValue + totalAmount;
 
-                report.append(type).append(" | ").append(totalTransactions).append("tranzactii | ").append(totalAmount).append(" RON").append(newLine);
+                report.append(type).append(" | ").append(totalTransactions).append(" tranzactii | ").append(totalAmount).append(" RON").append(newLine);
                 for (int i = 1; i <= typeTransactions.size(); i++) {
                     FinancialTransaction currentTransaction = typeTransactions.get(i-1);
                     report.append("\t")
@@ -69,7 +69,7 @@ public class TransactionService {
                           .append(") De la ")
                           .append(currentTransaction.getCnpPayer())
                           .append(" catre ")
-                          .append(currentTransaction.getCnpPayer())
+                          .append(currentTransaction.getCnpPayee())
                           .append(". Suma: ")
                           .append(currentTransaction.getAmount())
                           .append(" Descrierea: ")
